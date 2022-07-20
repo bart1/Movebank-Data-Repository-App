@@ -2,8 +2,8 @@
   "settings": [
 	{
       "id": "doi",
-      "name": "Doi for the dataset of interest",
-      "description": "This doi can be retrieved from the movebank data respository: https://www.datarepository.movebank.org/.",
+      "name": "DOI for the dataset of interest",
+      "description": "This doi can be retrieved from the movebank data respository: https://www.datarepository.movebank.org.",
       "defaultValue": "doi:10.5441/001/1.2tp2j43g",
       "type": "STRING"
     }
@@ -33,6 +33,13 @@
       "lastName": "Kranstauber",
       "email": "bart.kranstauber@uva.nl",
       "roles": ["compiler","author","creator"]
+    }
+  ],
+    "reference": [
+	{
+    "type": "CommunicatesWith",
+    "note": "Movebank Data Repository",
+    "url": "https://www.datarepository.movebank.org"
     }
   ],
   "documentation" : {

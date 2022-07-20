@@ -1,6 +1,6 @@
 library('move')
 
-rFunction <- function(data=NULL,doi)
+rFunction <- function(doi, data=NULL)
 {
   Sys.setenv(tz="UTC")
 
