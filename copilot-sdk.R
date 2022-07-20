@@ -17,11 +17,8 @@ args <- list()
 #    args[["password"]] = "any-password"
 
 # Add your arguments of your r function here
-args[["variab"]] = "timelag2"
-args[["rel"]] = ">"
-args[["valu"]] = 1 #unit should be clear from variab
-args[["time"]] = FALSE
-args[["delete"]] = FALSE #FALSE means make NA, TRUE means delete row
+args[["doi"]] = "doi:10.5441/001/1.2tp2j43g"
+
 
 #################################################################
 #################################################################
